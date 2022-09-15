@@ -13,7 +13,7 @@ body {
 }
 
 body {
-  display: flex;
+  // display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
@@ -22,59 +22,28 @@ body {
   font-family: -system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
-th {
-  color: white;
-}
+$fade-white : #eee;
+$white : #ccc;
 
-table {
-  width: 100%;
-  max-width: 50rem;
-  margin-top: 40px;
-}
+a{
+  color: $fade-white;
+  text-decoration: none;
+  font-size: 100px;
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
 
-tr:nth-child(even) th {
-  color: #ccc;
-  font-weight: normal;
-}
-
-tr th {
-  color: white;
-}
-
-th,
-td {
-  padding: 0.5rem 1rem;
-}
-
-th {
-  font-weight: normal;
-  border-top: thin dotted #ccc;
-}
-
-td {
-  font-size: 1rem;
-  font-weight: bold;
-  line-height: 1.4;
-  border-radius: 0.2rem;
-  transition: opacity 0.3s ease;
-}
-
-td > span {
-  font-size: 1em;
-  font-weight: normal;
-  display: block;
-  width: 100%;
-}
-
-.stage-basket {
-  background-color: #ffa726;
-}
-.stage-skate {
-  background-color: #EC6198;
-}
-.stage-main {
-  background-color: #E40422;
-}
-.stage-break {
-  background-color: #ffffff;
+  &:visited{
+    color: $white;
+    text-decoration: none;
+    opacity: 0.42;
+  }
+  &:hover{
+    opacity: 0.7;
+    text-decoration: underline;
+  }
+  &:active{
+    opacity: 1;
+    text-decoration: none;
+  }
 }
