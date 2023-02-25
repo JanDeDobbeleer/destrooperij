@@ -13,6 +13,7 @@ body {
 }
 
 body {
+  display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
@@ -21,18 +22,18 @@ body {
 }
 
 $primary: #88B918;
+$white: #FFFFFF;
 
 a{
-  color: $primary;
+  color: $white;
   text-decoration: none;
   font-size: 80px;
   display: flex;
   justify-content: center;
-  padding-top: 30px;
   font-style: bold;
 
   &:visited{
-    color: $primary;
+    color: $white;
     text-decoration: none;
     opacity: 0.42;
   }
@@ -44,4 +45,16 @@ a{
     opacity: 1;
     text-decoration: none;
   }
+}
+
+.button {
+  display: inline-block;
+  align-self: center;
+  background-color: $primary;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  margin: 4px 2px;
+  border-radius: 12px;
 }
