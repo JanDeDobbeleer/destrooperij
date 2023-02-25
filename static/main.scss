@@ -13,28 +13,26 @@ body {
 }
 
 body {
-  // display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   min-height: 100vh;
-  // padding: 4rem 0;
   font-family: -system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
-$fade-white : #eee;
-$white : #ccc;
+$primary: #88B918;
 
 a{
-  color: $fade-white;
+  color: $primary;
   text-decoration: none;
-  font-size: 100px;
+  font-size: 80px;
   display: flex;
   justify-content: center;
   padding-top: 30px;
+  font-style: bold;
 
   &:visited{
-    color: $white;
+    color: $primary;
     text-decoration: none;
     opacity: 0.42;
   }
