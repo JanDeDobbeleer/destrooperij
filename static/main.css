@@ -1,22 +1,28 @@
 .header {
-  display: block;
+  /* display: flex; */
+  display: flex;
+  flex-direction: column;
+  align-items: start;
   margin-left: auto;
   margin-right: auto;
   max-width: 100%;
-  max-height: 100%;
+  /* max-height: 100%; */
   width: auto;
-  height: auto; }
+  height: auto;
+}
 
 body {
-  background-color: #030405; }
+  background-color: #030405;
+}
 
 body {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   flex-direction: column;
+  margin: 0px;
   min-height: 100vh;
-  font-family: -system-ui, -apple-system, BlinkMacSystemFont, sans-serif; }
+  font-family: -system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
 
 a {
   color: #FFFFFF;
@@ -24,17 +30,24 @@ a {
   font-size: 80px;
   display: flex;
   justify-content: center;
-  font-style: bold; }
-  a:visited {
-    color: #FFFFFF;
-    text-decoration: none;
-    opacity: 0.42; }
-  a:hover {
-    opacity: 0.7;
-    text-decoration: underline; }
-  a:active {
-    opacity: 1;
-    text-decoration: none; }
+  font-style: bold;
+}
+
+a:visited {
+  color: #FFFFFF;
+  text-decoration: none;
+  opacity: 0.42;
+}
+
+a:hover {
+  opacity: 0.7;
+  text-decoration: underline;
+}
+
+a:active {
+  opacity: 1;
+  text-decoration: none;
+}
 
 .button {
   display: inline-block;
@@ -45,4 +58,9 @@ a {
   text-align: center;
   text-decoration: none;
   margin: 4px 2px;
-  border-radius: 12px; }
+  border-radius: 12px;
+}
+
+/*# sourceMappingURL=main.css.map */
+
+/*# sourceMappingURL=main.css.map */
