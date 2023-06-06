@@ -1,12 +1,11 @@
-.header {
-  /* display: flex; */
+html {
   display: flex;
-  flex-direction: column;
-  align-items: start;
+}
+
+.header {
   margin-left: auto;
   margin-right: auto;
   max-width: 100%;
-  /* max-height: 100%; */
   width: auto;
   height: auto;
 }
@@ -17,7 +16,7 @@ body {
 
 body {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   flex-direction: column;
   margin: 0px;
   min-height: 100vh;
@@ -25,16 +24,13 @@ body {
 }
 
 a {
-  color: #FFFFFF;
-  text-decoration: none;
+  color: #9F1970;
   font-size: 80px;
-  display: flex;
-  justify-content: center;
   font-style: bold;
 }
 
 a:visited {
-  color: #FFFFFF;
+  color: #9F1970;
   text-decoration: none;
   opacity: 0.42;
 }
@@ -50,17 +46,8 @@ a:active {
 }
 
 .button {
-  display: inline-block;
-  align-self: center;
-  background-color: #88B918;
-  border: none;
+  display: block;
   padding: 15px 32px;
   text-align: center;
-  text-decoration: none;
   margin: 4px 2px;
-  border-radius: 12px;
 }
-
-/*# sourceMappingURL=main.css.map */
-
-/*# sourceMappingURL=main.css.map */
